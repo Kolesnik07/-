@@ -1,0 +1,7 @@
+exchange: bybit
+risk_per_trade: 0.02
+daily_loss_limit: 0.02
+symbols:
+  - BTCUSDT
+  - ETHUSDT
+timeframe: 1m
