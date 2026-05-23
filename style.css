@@ -1,0 +1,45 @@
+/* Дополнительные стили для ИС "Компьютерный салон" */
+
+/* Анимация для карточек на дашборде */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Красивый градиент для заголовков */
+h1 i {
+    margin-right: 10px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Улучшенный вид для кнопок */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Таблицы — больше отступов */
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* Футер — прижать к низу */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+}
